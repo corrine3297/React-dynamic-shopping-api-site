@@ -1,0 +1,103 @@
+.footerContainer{
+    padding: 40px 40px;
+    background-color: whitesmoke;
+}
+
+.footerSection {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.footer-bar{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.section-left div{
+    padding: 10px;
+}
+
+.img-section{
+    background-color:white;
+    border-radius: 10px;
+}
+
+.social-media{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+.social-media a{
+    color: rgb(156, 156, 156);
+}
+
+.social-media li{
+    padding: 8px 9px;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.footer-logo{
+    margin-bottom: 20px;
+}
+
+.footer-bar i{
+    color: rgb(156, 156, 156);
+}
+
+.section-heading{
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    margin-left: 25px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #0e0e0e;;
+}
+
+li{
+    list-style: none;
+}
+
+.section-list li{
+    margin-bottom: 15px;
+    color: #5b5b5b;
+    font-size: 18px;
+}
+
+.footer-card{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.footer-card-details{
+    margin-left: 20px;
+    color: #5b5b5b;
+    font-size: 20px;
+    align-items: center;
+    
+
+}
+
+.footer-card-price{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.footer-img{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.footer-img img{
+    height: 70px;
+    width: 70px;
+}

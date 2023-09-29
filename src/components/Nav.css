@@ -1,0 +1,104 @@
+.navContainer {
+
+    padding: 40px 40px;
+    background-color: rgba(253, 240, 237, 255);
+
+}
+
+.navbarSection {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.list a {
+
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+    text-decoration: none;
+    transition: color .3s;
+    color: rgb(90, 88, 88);
+    padding: 20px;
+
+}
+
+
+.border-style {
+    border-right: 1px solid black;
+
+}
+
+.list-icon {
+    display: flex;
+    align-items: center;
+}
+
+.list-icon li {
+    display: inline;
+}
+
+
+
+.list-icon a {
+    padding: 0 10px;
+}
+
+#check,
+.checkbox-btn {
+    display: none;
+}
+
+.checkbox-btn {
+    /* display: block; */
+    display: none;
+    float: right;
+}
+
+@media (max-width:800px) {
+    .landing{
+        flex-wrap: wrap;
+    }
+    .list li {
+        display: block;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .list {
+        position: fixed;
+        left: -100%;
+        width: 80%;
+        flex-direction: column;
+        height: 100vh;
+        top: 105px;
+        background-color: rgba(253, 240, 237, 255);
+        z-index: 1;
+        transition: all 0.5s;
+        
+    }
+
+    .checkbox-btn{
+        display: block;
+    }
+
+    #check:checked~.list {
+        left: 0%;
+    }
+
+
+
+}
